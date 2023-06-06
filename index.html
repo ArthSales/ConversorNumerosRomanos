@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de números romanos</title>
+</head>
+<body>
+    <div class="form-conversao">
+        <div class="conversao__container">
+            <h2 class="container__title">Conversor de números romanos</h1>
+            <label for="algarismo-romano">Insira o número <strong class="container__destaque">romano</strong></label>
+            <input type="text" name="algarismo-romano" id="algarismo-romano" class="container__input" placeholder="Número romano...">
+            <button class="container__submit" id="submit-romano">Converter</button>
+        </div>
+        
+        <div class="conversao__container">
+            <h2 class="container__title">Conversor de números arábicos</h1>
+            <label for="algarismo-arabico">Insira o número <strong class="container__destaque">arábico</strong></label>
+            <input type="text" name="algarismo-arabico" id="algarismo-arabico" class="container__input" placeholder="Número arábico...">
+            <button class="container__submit" id="submit-arabico">Converter</button>
+        </div>
+    </div>
+
+    <div class="resultado__container">
+        <h1 class="resultado__titulo">Número convertido</h1>
+        <h2 class="resultado" id="resultado"></h2>
+    </div>
+</body>
+
+<script src="main.js"></script>
+</html>
